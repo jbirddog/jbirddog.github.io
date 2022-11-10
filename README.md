@@ -1,3 +1,2 @@
-# jbirddog.github.io
 
 testing
