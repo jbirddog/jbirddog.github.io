@@ -3,6 +3,134 @@
 <meta charset="UTF-8">
 <title>Resume</title>
 <body>
-  <a href="index.html">Home</a>
+  <h1>Jon Herron</h1>
+  <a href="https://github.com/jbirddog">https://github.com/jbirddog</a>
+  <br />
+  <a href="index.html">https://jbirddog.github.io/</a>
+  <br />
+  <a href="mailto:jon.herron@yahoo.com">jon.herron@yahoo.com</a>
+  <hr />
+  <h2>Qualifications</h2>
+  <ul>
+    <li>Over 20 years work experience in a wide range of business environments from entrepreneurial start-ups 
+      to Fortune 500 companies.</li>
+    <li>Utilizes strong organizational skills to prioritize assignments and handle multiple projects 
+      simultaneously while meeting deadlines.</li>
+    <li>Contributed significantly to the successful design and implementation of web, mobile, desktop and 
+      set-top box applications using Microsoft, Apple and Open Source technologies.</li>
+    <li>Developed sound knowledge of object-oriented and functional programming methodologies.</li>
+    <li>Able to design, architect, develop, performance tune, test and deploy production level applications.</li>
+    <li>Real life experience writing and maintaining applications with millions of unique daily active users.</li>
+    <li>Able to quickly switch between languages, systems and application layers.</li>
+    <li>Successfully organized and lead multiple teams during intense deadlines to deliver world-class applications.</li>
+  </ul>
+  <h2>Skills</h2>
+  <p>Objective-C, C, Swift, Python, Lisp, Scheme, Go, SML, Forth, iOS, Architecture, Design, Git, Mercurial, Team Leadership</p>
+  <h2>Work Experience</h2>
+  <h3>
+    <b>Yahoo!/Yahoo/Oath/Verizon</b> - 
+    <i>Aug 2008 to June 2021</i>
+  </h3>
+  <h4>Senior Principle Engineer, Partnerships/Mobile</h4>
+  <ul>
+    <li>Developed from scratch and released the official Yahoo iOS Mail application in 12 weeks. This
+      multithreaded universal binary works in landscape and portrait modes, supports multiple users, has full
+      offline support, complete bidirectional sync, is encrypted at rest and has full theme support built in. This
+      application has been #1 in Productivity numerous times, has over 10 million daily active users and a
+      crash rate of 0.02%.</li>
+    <li>Performed team lead functions for iOS Mail</li>
+    <li>Approved designs for backend APIs and internal SDKs consumed by Yahoo mobile applications.</li>
+    <li>Improved the performance and stability of multiple Yahoo iOS applications and SDKs.</li>
+    <li>Wrote a cross platform C library that matches user-defined patterns against an arbitrary stream of
+      events in constant time. This library was used in both iOS and Android applications to drive contextual
+      features.</li>
+    <li>Designed and developed a custom C application to identify issues in code that would cause increased
+      build times. Using this tool build times for iOS Mail were reduced from tens of minutes to under a
+      minute. This greatly increased developer productivity across the team. Libclang was used for parsing.</li>
+    <li>Implemented custom versions of Apple’s ibtool and actool which resulted in local builds being 45
+      seconds faster for iOS Mail.</li>
+    <li>Designed and developed a custom C application to identify when properties are accessed inconsistently
+      with regards to locking. This tool resulted in the identification and correction of several threading related
+      bugs and crashes. Libclang was used for parsing.</li>
+    <li>Devised a method to remotely log assertions that would have been hit in production code. This greatly
+      helped in tracking down the root cause of many crashes and problems reported by end users.</li>
+    <li>Devised a method to efficiently report the status of all feature buckets when an exception occurs. This
+      helped in debugging issues when a combination of buckets were on or off.</li>
+    <li>Ported C macros to Swift while maintaining the semantics of the macro, namely preventing eager
+      evaluation of parameters and respecting caller line, column and file values to help logging and
+      assertions.</li>
+    <li>Developed the iOS client portion of a secure multi-client real time chat feature that required instant
+      display of each user’s keystrokes and status changes.</li>
+    <li>Designed and developed a custom Swift application to parse the serialized AST nodes for the Clang
+      and Swift front ends. This allowed for auditing of codebases without the need to have libclang as a
+      dependency. Objective-C and Swift code can be compared allowing for lower false positives in a multi-
+      language codebase. Whole program analysis is supported as well as querying the codebase to help
+      identify issues.</li>
+    <li>Designed and developed a custom C application to automatically generate a suite of unit tests for a
+      given application. This work saved countless hours during drastic changes to our underlying codebases
+      and resulted in patent US9146842.</li>
+    <li>Designed a system to deploy targeted fixes to mobile users that experienced a crash while using a
+      Yahoo application. This system resulted in patent filing US20160124799.</li>
+    <li>Wrote a complete Objective-C parser and lexer in Python to perform custom auditing of our iOS
+      codebases. This was used when bugs in libclang prevented it from being used.</li>
+    <li>Designed and implemented a system that cross referenced crash reports to debug logs as well as the
+      associated code files of a given application.</li>
+    <li>Designed and implemented a library that forced existing race conditions within an application to occur.
+      This greatly helped in debugging hard to reproduce crashes.</li>
+    <li>Developed an unbranded real time group chat application during which time I devised a method to
+      improve the performance for type-ahead search results from a finite dataset, resulting in patent
+      US8965909.</li>
+    <li>Ported in house Dependency Injection framework from Java to Objective-C.</li>
+    <li>Designed and helped implement the rewrite of existing RDP Terminal Services application to a native
+      set-top box application. A new framework was designed to allow developers to create TV-based
+      applications without concern for SD, SDW or HD resolutions. Other platform specific oddities such as
+      memory restrictions and lack of cookie support where dealt with at the framework level to allow
+      developers to focus on their task at hand.</li>
+    <li>Created custom PHP extension in C to inject post data into an apache apr table to trick subsequent
+      code into believing the client application had native cookie support. This allowed rich set-top box
+      applications that fit nicely into the existing Yahoo ecosystem.</li>
+    <li>Helped design and fully implemented search functionality for our web based DVR application. Search
+      leveraged a combination of MySQL and NoSQL databases to perform show title, cast and crew as well
+      as channel searches.</li>
+    <li>Helped design and fully implemented search assist functionality for our intra-application search. Search
+      assist utilized both MySQL and custom application logic to sort and order results in a method described
+      in patent US8250077.</li>
+    <li>Created custom Java plugin for in-house NoSQL implementation to allow it to serve as a remote API
+      cache layer as well as an application data store.</li>
+    <li>Created custom Java plugin for in-house NoSQL implementation to allow it to cross reference relational
+      data stored in MySQL at query time.</li>
+    <li>Developed custom charting tool so AT&amp;T U-verse customers could visualize their finance.yahoo.com
+      data on their televisions.</li>
+    <li>Designed and implemented a backend process to perform a nightly EPG refresh for our web based
+      DVR application. EPG data was provided in a 1.2GB XML file which was downloaded, parsed and
+      loaded into MySQL as well as a custom in-house NoSQL database.</li>
+    <li>Implemented process to allow front-end application servers to hot swap their MySQL databases with
+      those present on the back-end EPG servers. This allowed for zero downtime deployments without the
+      need for MySQL replication.</li>
+  </ul>
+  <h4>Director of Engineering, Mobile</h4>
+  <ul>
+    <li>Successfully led the iOS Mail team through several high impact projects which where key to 
+      quarterly and annual business goals. I achieved a 100% approval rating from my team during our 
+      corporate annual surveys.</li>
+    <li>Successfully organized and led several cross-functional war room initiatives to ensure projects 
+      were completed on time.</li>
+    <li>Acted as talent magnet within the company as I attracted 5 high performing internal transfers 
+      without poaching.</li>
+    <li>Ran several simultaneous projects at a time utilizing the appropriate members of my team. Allocations 
+      were done based on strengths and growth needs depending on the deadline and priority of each project.</li>
+    <li>Went to great lengths to ensure that members of my team were known within the company. This included 
+      partnering closely with internal PR and marketing, rallying support for internal recognition awards 
+      and coordinating presentations at corporate and organizational meetings.</li>
+    <li>I empowered my employees to take risks where appropriate and worked hard to give them the encouragement 
+      and freedom to succeed in ways they never thought possible. Members of my team routinely filed patents, 
+      pitched new features and led cross team architecture discussions.</li>
+    <li>Held a weekly Team Hour during which the team took turns presenting design patterns, data structures 
+      and algorithms and new language features.</li>
+    <li>Partnered closely with members of other organizations and divisions to ensure that dependencies were 
+      aligned, priorities were set and resources were allocated appropriately.</li>
+  </ul>
+  <hr />
+  <i>References available upon request</a>
 </body>
 </html>
