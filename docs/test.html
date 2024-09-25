@@ -16,7 +16,7 @@ export const wasmBrowserInstantiate = async (wasmModuleUrl, importObject) => {
   if (!importObject) {
     importObject = {
       env: {
-        abort: () => console.log("Abort!")
+        abortX: () => console.log("Abort!")
       }
     };
   }
@@ -53,6 +53,15 @@ const runWasmAdd = async () => {
   document.body.textContent = `Hello World! addResult: ${addResult}`;
 };
 runWasmAdd();
+
+const httpTest = () => {
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.open("GET", "https://jbdcgi-jbirddog.wasmer.app/", false);
+  xmlHttp.send(null);
+  alert(xmlHttp.responseText);
+}
+
+httpTest();
 		</script>
 	
 </html>
